@@ -1,0 +1,44 @@
+label {
+    margin-bottom: 0rem !important;
+  }
+
+.card1 p{
+  font-size: 18px;
+}  
+
+.card1 input{
+  /* display: none; */
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+
+
+.profileCard{
+  width: 35rem;
+  background: antiquewhite;
+  border:2px solid black;
+}
+
+#pEditBtn{
+  width: 25%;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  color: white;
+  background-color:black;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .profileCard{
+    width: 18rem;
+    background: antiquewhite;
+    /* border:2px solid black; */
+  }
+
+  #headProfile {
+    font-size: 28px !important;
+  }
+}

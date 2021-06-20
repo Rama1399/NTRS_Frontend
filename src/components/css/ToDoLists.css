@@ -1,0 +1,53 @@
+span.fa {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size:22px;
+}
+
+#dynamicInput {
+    position: relative;
+    /* display: flex; */
+}
+
+.todoPopup{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.todoAdd{
+    width: 40rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.todoCard{
+    box-shadow: 0 4px 8px 0 lightslategray;
+    width: 20rem;
+    padding:20px;
+    border: 2px solid cadetblue;
+    border-top: 7px solid cadetblue;
+    text-align: center;
+    background: white;
+}
+@media only screen and (max-width: 600px) {
+    .customModal{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .todoPopup{
+        display: contents;
+    }
+
+    .todoAdd{
+        width: 16rem;
+    }
+}

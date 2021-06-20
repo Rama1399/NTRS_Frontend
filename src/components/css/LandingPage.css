@@ -1,0 +1,132 @@
+/* --navbar--- */
+#nav{
+    align-items: right;
+   
+}
+
+#nav .navbar{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#nav .navbar .navbar-brand{
+   font-size: 22px;
+}
+
+#nav .navbar .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* --- home --- */
+#home{
+    padding: 40px;
+    background-color: khaki;
+}
+
+
+/* --- about --- */
+#about{
+    padding: 40px;
+    background-color: lightblue;
+    /* background: hsla(233, 100%, 90%, 1);
+
+background: linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(233, 100%, 90%, 1) 0%, hsla(0, 0%, 89%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CAD0FF", endColorstr="#E3E3E3", GradientType=1 ); */
+}
+
+#about .container .row{
+    justify-content: center;
+    padding: 20px;
+    display: inline-table;
+}
+
+.card{
+    /* color: blue; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(105, 207, 255, 0.959);
+}
+
+/* --- features --- */
+#features{
+    padding: 40px;
+    background-color: lightcoral;;
+    
+}
+
+#features .container{
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+#features .container p span{
+    color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --- team --- */
+#team{
+    padding: 40px;
+    background-color: lightgreen;
+}
+
+#team .container .card-deck{
+    /* padding: 50px; */
+    
+    margin: 80px;
+    margin-top: 30px ;
+}
+
+#team .container .card-deck .card-img-top{
+    width: 50%;
+    align-self: center;
+    margin-top: 10px;
+    border-radius: 60%;
+}
+
+#team .container .card-deck .card #icons svg{
+    width: 30px;
+    height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #team .container .card-deck{
+        margin: 10px;
+    }
+
+    .row{
+        margin-left: -30px;
+    }
+
+    #nav .navbar {
+        margin-left: 0px;
+        margin-right: 0;
+        padding-left: 30px;
+    }
+
+    .navbar-toggler{
+        margin-left: 90px;
+    }
+}
+
+
+
+/* --- footer --- */
+#footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}

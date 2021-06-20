@@ -1,0 +1,111 @@
+.noted{
+    /* background: blanchedalmond; */
+    min-width: 100%;
+    min-height: 100%;
+    /* background-attachment: fixed; */
+    /* background-repeat:no-repeat; */
+    /* background-image: url("../images/bg1.jpg"); */
+    /* background-size: cover; */
+}
+
+#n1Add{
+    /* background-image: url("../images/bg1.jpg");
+    background-size: cover; */
+    padding: 50px;
+  
+}
+  
+.noteAdd{
+    width: 40rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 20px;
+    
+}
+
+.modal-content{
+    border: 3px solid cadetblue;
+}
+
+.notePopup{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+
+#noteBtn1{
+    width: 17%;
+    padding: 6px;
+    background: brown  ;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+#noteBtn3{
+    width: 17%;
+    padding: 6px;
+    background: black  ;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+#noteBtn2{
+    width: 17%;
+    padding: 6px;
+    background: darkslateblue;
+    color: aliceblue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+#noteBtn{
+    margin-top: 30px;
+}
+
+.noteCard{
+    box-shadow: 0 4px 8px 0 lightslategray;
+    width: 20rem;
+    padding:20px;
+    border: 2px solid gold;
+    border-top: 7px solid gold;
+    text-align: center;
+    background: white;
+}
+@media only screen and (max-width: 600px) {
+    .customModal{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .notePopup{
+        display: contents;
+    }
+
+    .noteAdd{
+        width: 16rem;
+    }
+
+    .modal-content{
+        margin-top: 150px;
+    }
+}
+
+
+/* "production": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ], */

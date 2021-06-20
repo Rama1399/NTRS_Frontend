@@ -1,0 +1,77 @@
+#rem{
+    display: contents;
+    position: relative;
+}
+
+.form-control {
+    width: 100%;
+}
+
+#add{
+    padding: 20px;
+    display: inline-block;
+}
+
+#add .card .add-card{
+    display: inline-block !important; 
+}
+
+
+#add .card:hover{
+        /* transform: scale(1.05); */
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(34, 34, 34, 0.959) !important; 
+}
+
+
+.reminderCard{
+    box-shadow: 0 4px 8px 0 lightslategray;
+    width: 20rem;
+    padding:20px;
+    border: 2px solid mediumspringgreen;
+    border-top: 7px solid mediumspringgreen;
+    text-align: center;
+    background: white;
+}
+
+  .row{
+      display: inline-flex;
+      padding: 20px;
+  }
+  .reminderPopup{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.reminderAdd{
+    width: 40rem;
+    /* box-shadow: 0 4px 8px aquamarine; */
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .customModal{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .reminderPopup{
+        display: contents;
+        margin-left: 20px;
+    }
+
+    .reminderPopup td{
+        font-size: 16px;
+    }
+    .reminderAdd{
+        width: 17rem;
+    }
+    #add #heading h2{
+        font-size: 18px !important;
+    }
+}
